@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font familiyi bura elave olunur */
+}
+
+.header {
+    min-height: 100vh;
+    /* width: 100%; */
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.basliq{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+} 
+
+.nav-logo a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.nav-logo a:hover {
+    color: orangered;
+}
+
+.nav-links a {
+
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    color: orangered;
+}
